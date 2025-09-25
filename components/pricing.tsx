@@ -5,7 +5,7 @@ import { Check, Star } from "lucide-react"
 const plans = [
   {
     name: "Basic Detail",
-    price: "$89",
+    price: "$79",
     description: "Perfect for regular maintenance",
     features: [
       "Exterior wash & dry",
@@ -19,15 +19,13 @@ const plans = [
   },
   {
     name: "Premium Detail",
-    price: "$149",
+    price: "$119",
     description: "Our most popular package",
     features: [
       "Everything in Basic",
-      "Clay bar treatment",
       "Wax application",
       "Leather conditioning",
       "Engine bay cleaning",
-      "Headlight restoration",
       "Pet hair removal",
     ],
     popular: true,
@@ -38,8 +36,6 @@ const plans = [
     description: "Complete transformation",
     features: [
       "Everything in Premium",
-      "Paint correction",
-      "Ceramic coating prep",
       "Deep stain removal",
       "Seat shampooing",
       "Odor elimination",
